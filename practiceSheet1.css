@@ -1,0 +1,72 @@
+body{
+    font-family: sans-serif, helvetica, comic;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+header{
+    background:rgb(205,33,63);
+    color:white;
+    border-bottom:purple 3px solid;
+    min-height: 120px;
+}
+header h1{
+    float:left;
+    margin-top: 50px;
+}
+nav{
+    float:right;
+    margin-top:50px;
+}
+header li{
+    margin: 10px;
+    font-size: 20px;
+    color:orange;
+}
+
+header a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+}
+
+#showcase{
+    background:url(baseballbat.jpg) no-repeat -150px -20px;
+    min-height: 500px;
+    color:red;
+}
+#showcase h1{
+    color:purple;
+}
+#bats{
+    margin-top: 20px;
+}
+.bat{
+    float:left;
+    width:30%;
+    text-align:center;
+}
+.bat h3{
+    color:blue;
+}
+footer{
+    background-color:rgb(205,133,64);
+    color:white;
+    margin-top:10px;
+    border-top: purple 3px solid;
+}
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+header a:hover{
+    color:purple;
+    font-weight:bold;
+}
+#sidebar h1{
+    color: green;
+}
+#sidebar{
+    background-color: rgb(90,90,90);
+}
